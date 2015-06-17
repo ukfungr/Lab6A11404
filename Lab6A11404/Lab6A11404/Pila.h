@@ -10,16 +10,12 @@ class Pila :
 {
 	friend ostream & operator<<(ostream &, Pila &);
 
-private:
-	//Elemento * cabeza;
-
 public:
 	Pila();
 	virtual ~Pila();
 	void push(Elemento *);
 	Elemento * peek();
 	Elemento * pop();
-	//void imprimir(ostream &);
 };
 
 ostream & operator<<(ostream &, Pila &);
