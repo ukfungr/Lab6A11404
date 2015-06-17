@@ -74,7 +74,7 @@ void Lista::imprimir(ostream& out) {
 	Elemento * print = head;
 	int i = 0;
 	while (print != NULL){
-		out << *print << i << endl;
+		out << *print << "-> " << i << endl;
 		print = print->getNext();
 		i++;
 	}

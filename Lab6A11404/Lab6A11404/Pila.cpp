@@ -7,11 +7,6 @@ Pila::Pila()
 	Lista::head = NULL;
 }
 
-Pila::Pila(Elemento * node)
-{
-	Lista::insertarElementoInicio(node);
-}
-
 
 Pila::~Pila()
 {

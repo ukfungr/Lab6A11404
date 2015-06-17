@@ -15,7 +15,6 @@ private:
 
 public:
 	Pila();
-	Pila(Elemento *);
 	virtual ~Pila();
 	void push(Elemento *);
 	Elemento * peek();
